@@ -1,0 +1,11 @@
+{
+  "wallet": "RMHY5CQBAMRhtirgwtsxv6GZT512SYs4wc",
+  "my_github": "https://raw.githubusercontent.com/BLBMS/block_found/main/",
+  "coin_list": [
+    "VRSC",
+    "vARRR",
+    "vDEX"
+  ],
+  "freq": 0.003,
+  "is_found": "no"
+}
