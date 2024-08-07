@@ -6,6 +6,9 @@
     "vARRR",
     "vDEX"
   ],
+  "pool_list": [
+    "luckpool"
+  ],
   "freq": 24,
   "is_found": "no"
 }
