@@ -21,6 +21,7 @@ Blocks are also recorded for merged mining for pools that allow this. The coins 
 customization requires some prior programming knowledge
 
 you definitely need this:
+
 `sudo apt-get update ; sudo apt-get upgrade -y ; sudo apt install python3 -y ; sudo apt install python3-pip -y ; sudo pip3 install requests ; sudo apt install nano screen bc jq -y`
 
 **no help, use at your own risk**
@@ -34,3 +35,5 @@ ___________
 
 download `block_start.sh`, this is start program
 download `block_data.json`, modify and enter your data
+
+Other programs are downloaded automatically and are later updated to new versions. In case of a fork, please update the github path (no update).
