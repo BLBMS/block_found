@@ -24,6 +24,7 @@ Currently supported pools:
 -  luckpool
 -  vipor
 -  cloudiko
+-  aninterestinghole
 
 customization requires some prior programming knowledge
 
