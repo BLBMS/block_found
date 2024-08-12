@@ -25,6 +25,7 @@ Currently supported pools:
 -  vipor
 -  cloudiko
 -  aninterestinghole
+-  paddypool
 
 customization requires some prior programming knowledge
 
