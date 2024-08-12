@@ -18,6 +18,13 @@ To the far right is added a counter of blocks in the same month (this data was m
 
 Blocks are also recorded for merged mining for pools that allow this. The coins are written in .json and in the case of new PBaaS coins just add them.
 
+Currently supported pools:
+-  community pool
+-  verus farm
+-  luckpool
+-  vipor
+-  cloudiko
+
 customization requires some prior programming knowledge
 
 you definitely need this:
