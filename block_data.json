@@ -1,5 +1,5 @@
 {
-  "wallet": "RMHY5CQBAMRhtirgwtsxv6GZT512SYs4wc",
+  "wallet": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "my_github": "https://raw.githubusercontent.com/BLBMS/block_found/main/",
   "coin_list": [
     "VRSC",
@@ -7,7 +7,26 @@
     "vDEX"
   ],
   "pool_list": [
-    "luckpool"
+    {
+      "name": "community",
+      "active": 1
+    },
+    {
+      "name": "verus_farm",
+      "active": 0
+    },
+    {
+      "name": "luckpool",
+      "active": 0
+    },
+    {
+      "name": "vipor",
+      "active": 0
+    },
+    {
+      "name": "cloudiko",
+      "active": 0
+    }
   ],
   "freq": 24,
   "is_found": "no"
