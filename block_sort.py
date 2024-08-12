@@ -1,5 +1,5 @@
-# v.2024-08-10
 # by blbMS
+# v.2024-08-12 21:24
 import sys
 from datetime import datetime
 
@@ -14,13 +14,18 @@ with open(file_name, 'r') as f:
 # Parsiranje vrstic v seznam slovarjev
 blocks = []
 for line in lines:
-    parts = line.strip().split(maxsplit=4)
+    parts = line.strip().split(maxsplit=5)
     blocks.append({
         "height": int(parts[0]),        # Višina bloka
         "pool": parts[1],               # Bazen
         "timestamp": parts[2] + " " + parts[3],  # Časovni žig
-        "worker": parts[4] if len(parts) > 4 else ""  # Delavec (ali oznaka)
+        "worker": parts[4],             # Delavec
+        "sequence": int(parts[5]) if len(parts) > 5 else None  # Zaporedna številka, če obstaja
     })
+
+# Premakni prvo vrstico na dno, če ima višino bloka 0
+if blocks and blocks[0]["height"] == 0:
+    blocks.append(blocks.pop(0))
 
 # Razvrsti bloke po naraščajočem vrstnem redu glede na časovni žig
 blocks.sort(key=lambda x: datetime.strptime(x["timestamp"], "%Y-%m-%d %H:%M:%S.%f") if '.' in x["timestamp"] else datetime.strptime(x["timestamp"], "%Y-%m-%d %H:%M:%S"))
@@ -40,12 +45,12 @@ for block in blocks:
         counter = 1
     else:
         counter += 1
-    block["worker"] = counter  # Zamenjaj delavca z zaporedno številko
+    block["sequence"] = counter  # Dodaj zaporedno številko
 
-# Razvrsti bloke nazaj po višini bloka v padajočem vrstnem redu
+# Razvrsti bloke nazaj po višini bloka, tokrat v padajočem vrstnem redu
 blocks.sort(key=lambda x: x["height"], reverse=True)
 
 # Zapiši posodobljene podatke nazaj v datoteko
 with open(file_name, 'w') as f:
     for block in blocks:
-        f.write(f"{block['height']}   {block['pool']}   {block['timestamp']}   {block['worker']}\n")
+        f.write(f"{block['height']}   {block['pool']}   {block['timestamp']}   {block['worker']}   {block['sequence']}\n")
