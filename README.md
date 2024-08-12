@@ -1,5 +1,5 @@
 # block-found
-counts mined blocks in verus chain
+##counts mined blocks in verus chain
 
 I've always wondered how many blocks I find in (say) a month. As long as the hash is small this is not a problem. Some pools do not record this or only the last few.
 
@@ -22,9 +22,9 @@ Blocks are also recorded for merged mining for pools that allow this. The coins 
 customization requires some prior programming knowledge
 
 you definitely need this:
-sudo apt-get update ; sudo apt-get upgrade -y ; sudo apt install python3 -y ; sudo apt install python3-pip -y ; sudo pip3 install requests ; sudo apt install nano screen bc jq -y
+'sudo apt-get update ; sudo apt-get upgrade -y ; sudo apt install python3 -y ; sudo apt install python3-pip -y ; sudo pip3 install requests ; sudo apt install nano screen bc jq -y'
 
-no help, use at your own risk
+**no help, use at your own risk**
 
 in case of a bug, write a message
 
