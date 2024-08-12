@@ -1,4 +1,4 @@
-# block-found
+# block_found
 ## counts mined blocks in verus chain
 I've always wondered how many blocks I find in (say) a month. As long as the hash is small this is not a problem. Some pools do not record this or only the last few.
 
