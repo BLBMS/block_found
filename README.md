@@ -10,7 +10,7 @@ I recommend a capture interval of 24 hours. Except for a really really big hash,
 
 Too short a capture interval and marked pools that you don't actually mine on needlessly load the servers. Please also consider the economic aspect of pools and the environmental footprint.
 
-The program starts in a separate screen named 'block_found'. Newly found blocks are displayed on this screen on the fly, and are also recorded in a .list file for each type of coin separately.
+The program starts in a separate screen named 'block_found'. Newly found blocks are displayed on this screen on the fly, and are also recorded in a block_$COIN.list file for each type of coin separately.
 
 In the file, the blocks are sorted according to the block number - the most recent ones are the highest, and not according to the pool.
 
