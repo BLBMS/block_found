@@ -50,9 +50,11 @@ ___________
 ## example
 
 example of working screen 'block_update' *
+
 ![README.md](image1.png)
 
 example file for coin: VRSC *
+
 ![README.md](image2.png)
 
 *  Different random wallets were used for this example demonstration.
