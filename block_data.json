@@ -30,6 +30,10 @@
     {
       "name": "aninterestinghole",
       "active": 0
+    },
+    {
+      "name": "paddypool",
+      "active": 0
     }
   ],
   "freq": 24,
