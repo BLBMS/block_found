@@ -48,7 +48,7 @@ Other programs are downloaded automatically and are later updated to new version
 
 ___________
 ## example
-˘˘˘
+```
 3162617   luckpool-eu   2024-08-05 05:13:44   4
 3160410   luckpool-eu   2024-08-03 15:18:09   3
 3157809   luckpool-eu   2024-08-01 18:28:15   2
