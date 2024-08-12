@@ -48,21 +48,11 @@ Other programs are downloaded automatically and are later updated to new version
 
 ___________
 ## example
-```
-3162617   community   2024-08-05 05:13:44   4
-3160410   vipor-eu   2024-08-03 15:18:09   3
-3157809   luckpool-na   2024-08-01 18:28:15   2
-3157077   luckpool-eu   2024-08-01 05:58:09   1
-3152285   vipor-pl   2024-07-28 19:32:30   17
-3152020   luckpool-na   2024-07-28 15:06:06   16
-3151615   luckpool-ap   2024-07-28 08:14:51   15
-3145701   luckpool-eu   2024-07-24 02:26:02   14
-3143680   vipor-cn   2024-07-22 15:33:54   13
-3142398   luckpool-eu   2024-07-21 17:37:59   12
-3139735   community   2024-07-19 19:45:43   11
-3138170   verus_farm   2024-07-18 16:51:50   10
-3135861   luckpool-eu   2024-07-17 01:03:31   9
-3133260   verus_farm   2024-07-15 04:28:38   8
-3128709   community   2024-07-11 22:04:17   7
-3126669   luckpool-eu   2024-07-10 11:20:24   6
-```
+
+example of working screen 'block_update' *
+![README.md](image1.png)
+
+example file for coin: VRSC *
+![README.md](image2.png)
+
+*  Different random wallets were used for this example demonstration.
