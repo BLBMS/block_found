@@ -48,7 +48,14 @@ for block in blocks:
 # Razvrsti bloke nazaj po višini bloka, tokrat v padajočem vrstnem redu
 blocks.sort(key=lambda x: x["height"], reverse=True)
 
-# Zapiši posodobljene podatke nazaj v datoteko
+# Zapiši posodobljene podatke nazaj v datoteko z lepim izpisom
 with open(file_name, 'w') as f:
     for block in blocks:
-        f.write(f"{block['height']}   {block['pool']}   {block['timestamp']}   {block['worker']}   {block['sequence']}\n")
+        height_str = f"{block['height']:>8}"  # Poravnano desno, 8 znakov
+        pool_str = f"{block['pool']:<20}"     # Poravnano levo, 20 znakov
+        timestamp_str = block["timestamp"]    # Datum in čas
+        worker_str = f"{block['worker']:<16}" # Poravnano levo, 16 znakov
+        sequence_str = str(block["sequence"]) # Zaporedna številka
+        
+        # Zapiši v datoteko
+        f.write(f"{height_str}   {pool_str}   {timestamp_str}   {worker_str}   {sequence_str}\n")
