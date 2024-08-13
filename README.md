@@ -26,6 +26,7 @@ Currently supported pools:
 -  cloudiko
 -  aninterestinghole
 -  paddypool
+-  cedric crispin
 
 customization requires some prior programming knowledge
 
