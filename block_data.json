@@ -34,7 +34,11 @@
     {
       "name": "paddypool",
       "active": 0
-    }
+    },
+    {
+      "name": "cedric_crispin",
+      "active": 0
+    }  
   ],
   "freq": 24,
   "is_found": "no"
