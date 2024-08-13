@@ -57,6 +57,6 @@ example of working screen 'block_update' *
 
 example file for coin: VRSC *
 
-![README.md](image2.png)
+![README.md](image2a.png)
 
 *  Different random wallets were used for this example demonstration.
