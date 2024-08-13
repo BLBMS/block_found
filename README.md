@@ -47,7 +47,15 @@ ___________
 
 download `block_start.sh`, this is start program
 
+```
+cd ~/;rm -f block_start.sh;wget https://raw.githubusercontent.com/BLBMS/block_found/main/block_start.sh;chmod +x block_start.sh
+```
+
 download `block_data.json`, modify and enter your data
+
+```
+cd ~/;rm -f block_data.json;wget https://raw.githubusercontent.com/BLBMS/block_found/main/block_data.json
+```
 
 Other programs are downloaded automatically and are later updated to new versions. In case of a fork, please update the github path (no update).
 
